@@ -1,0 +1,85 @@
+html {
+    background-color: #1C1C1C;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px; 
+    max-width: 400px;
+    width: 100%;
+    background-color: #1F2937;
+    border: 1px solid white;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+#random-password {
+    font-weight: bold;
+    color: #4ADF86;
+}
+
+h3 {
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+#gen-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4ADF86;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.separator {
+    height: 1px;
+    background-color: #3e3e3e;
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+;
+}
+.span {
+    width: 200px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: #464646;
+    border: none;
+    border-radius: 5px;
+    color: #55F991;
+    font-weight: 600;
+}
+
+.span:hover {
+    cursor: pointer;
+    background-color: #595a5a;
+}
+
+#gen-btn:hover {
+    background-color: #4e7461;
+}
+
